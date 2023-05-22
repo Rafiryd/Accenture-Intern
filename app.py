@@ -8,7 +8,7 @@ model = pickle.load(open('model.sav', 'rb'))
 
 st.title('Player Salary Prediction')
 st.sidebar.header('Player Data')
-image = Image.open(r'C:\Users\LENOVO\Desktop\streamlit\Capture.PNG')
+image = Image.open('Capture.PNG')
 st.image(image, '')
 
 # FUNCTION
